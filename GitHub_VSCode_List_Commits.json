@@ -21,6 +21,20 @@
         "produces" : [ "application/json" ],
         "consumes" : [ "application/json" ],
         "parameters" : [ {
+          "name" : "per_page",
+          "in" : "query",
+          "description" : null,
+          "required" : false,
+          "type" : "number",
+          "format" : "int32"
+        }, {
+          "name" : "page",
+          "in" : "query",
+          "description" : null,
+          "required" : false,
+          "type" : "number",
+          "format" : "int32"
+        }, {
           "name" : "Authorization",
           "in" : "header",
           "description" : null,
