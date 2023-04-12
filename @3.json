@@ -131,7 +131,7 @@
                         "$$ID": 20,
                         "$$class": 13,
                         "name": "Tracing Level",
-                        "value": "Normal"
+                        "value": "Verbose"
                     },
                     {
                         "$$ID": 21,
@@ -149,13 +149,13 @@
                         "$$ID": 23,
                         "$$class": 13,
                         "name": "Sql Override",
-                        "value": ""
+                        "value": "SELECT * FROM CUSTOMERS WHERE IS_DELETED = 'false'"
                     },
                     {
                         "$$ID": 24,
                         "$$class": 13,
                         "name": "Output is deterministic",
-                        "value": "false"
+                        "value": "true"
                     },
                     {
                         "$$ID": 25,
